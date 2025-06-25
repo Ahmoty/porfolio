@@ -84,6 +84,10 @@ h1 {
     color: #00012F;
     padding: 0 5px;
 }
+.info a {
+    color: white;
+    font-family: "inter";
+}
 
 /* Projects */
 #project-header {
