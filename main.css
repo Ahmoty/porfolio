@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+body {
+    background-color: #00012F;
+}
+
+nav {
+    font-family: "inter";
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0px;
+    border: none;
+    padding-top: 15px;
+    align-content: center;
+    background-color: #00012F;
+    z-index: 5;
+    overflow: visible;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+li a {
+    text-align: center;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #00012F;
+}
+
+#active-tab {
+    text-decoration: none;
+    /* border: white solid 5px; */
+    background: white;
+    border-radius: 5rem;
+}
+
+#active-tab {
+    color: #00012F;
+
+}
+
+/* nav style */
+
+.my-image {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 20%;
+    border-radius: 15rem;
+}
+
+h1 {
+    margin-top: 15px;
+    color: white;
+    font-family: "inter";
+    text-align: center;
+}
+
+#job {
+    display: block;
+    margin-top: -1px;
+    font-size: 15px;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: "inter";
+}
+
+.info span {
+    background-color: white;
+    color: #00012F;
+}
+
+#project-header {
+    margin-top: 50px;
+}
+
+
+main {
+    display: block;
+    text-align: center;
+    align-content: center;
+    width: 50%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.project-card {
+    margin-top: 30px;
+    background-color: white;
+    width: 35%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding-bottom: 15px;
+
+}
+
+.project-name {
+    color: #00012F;
+    text-align: center;
+    font-family: "inter";
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.project-image {
+    margin-top: 20px;
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    margin-top: 15px;
+    text-align: center;
+    color: #00012F;
+    font-family: "inter";
+}
+
+.visit {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #00012F;
+    border-radius: 2rem;
+}
+
+.visit a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 190%;
+    font-family: "inter";
+}
+
+.info a {
+    color: white;
+    font-size: medium;
+}
+
+.contact-header {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-family: "inter";
+    font-size: 30px;
+}
+
+.github,
+.email,
+.number {
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 2rem;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github a,
+.email a {
+    text-decoration: none;
+    display: block;
+    color: #00012F;
+    font-family: "inter";
+    font-size: 35px;
+    text-align: center;
+}
+
+.number {
+    display: block;
+    color: #00012F;
+    font-family: "inter";
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.end {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: "inter";
+    font-size: 25px;
+}
