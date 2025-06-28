@@ -101,16 +101,16 @@ h1 {
     text-align: center;
     font-size: 2rem;
 }
-
+/* cards stlye */
 main {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;       
-    align-content: center;
+    align-items: center;
+    justify-content: center; 
 }
 
 .project-card {
@@ -121,6 +121,7 @@ main {
     display: inline-block;
     width: 150%;
     max-width: 20%;
+
 
 }
 
@@ -158,7 +159,7 @@ main {
     font-size: 1.2rem;
 }
 
-/* Contact Section */
+/* Contact Section style */
 #contact-header {
     margin-top: 5%;
     color: white;
@@ -200,7 +201,7 @@ main {
     text-align: center;
     font-size: 1.2rem;
 }
-
+/* responsive settings */
 @media (max-width: 768px) {
     nav ul {
         display: flex;
