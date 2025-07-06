@@ -92,38 +92,46 @@ h1 {
     font-size: 2rem;
 }
 /* cards stlye */
-main {
-    width: 90%;
+main { 
+    width: 80%;
     max-width: 1200px;
     margin: 20px auto;
+    gap: 20px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;       
-    align-items: center;
+    display: flex; 
+    align-items: stretch;
+    flex-wrap: wrap;
     justify-content: center; 
 }
 
 .project-card {
     background-color: white;
     border-radius: 2rem;
-    margin: 20px 2%;
-    padding-bottom: 15px;
-    display:block;
-    width: 120%;
-    max-width: 20%;
+    margin: 30px 2%;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
 
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto 0;
 }
 
 .project-name {
     color: #00012F;
     font-size: 1.4rem;
-    padding-top: 15px;
-}
-
-.project-image {
-    width: 60%;
-    display: block;
-    margin: 20px auto 0;
+    padding-top: 10px;
 }
 
 .description {
@@ -131,6 +139,12 @@ main {
     color: #00012F;
     font-size: 1rem;
     padding: 0 10px;
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    text-align: center;    
 }
 
 .visit {
@@ -147,7 +161,6 @@ main {
     text-decoration: none;
     font-size: 1.2rem;
 }
-
 /* Contact Section style */
 #contact-header {
     margin-top: 5%;
