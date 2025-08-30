@@ -1,1 +1,1 @@
-Hi, I am Ahmed Hesham, a passionate front-end developer who loves building clean and responsive websites.I have a strong foundation in skills like HTML, CSS,JavaScript,git , github and React I hope you love my portfolio
+Hi, I am Ahmed Hesham, a passionate front-end developer who loves building clean and responsive websites that also provides accessibility with some of SEO basics that enable my websites to be more visible on the internet. I hope you love my portfolio.
