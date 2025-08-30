@@ -7,63 +7,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>PORTFOLIO</title>
-
 </head>
 
 <body>
     <nav>
-        <ul>
-            <li><a id="active-tab" href="index.html">About</a></li>
-            <li><a href="#project-header">Projects</a></li>
-            <li><a href="#contact-header">Contact</a></li>
+        <ul class="nav-lists">
+            <li class="nav-li"><a class="nav-a" href="index.html">About</a></li>
+            <li class="nav-li"><a class="nav-a" href="#project-header">Projects</a></li>
+            <li class="nav-li"><a class="nav-a" href="#skills-header">My skills</a></li>
+            <li class="nav-li"><a class="nav-a" href="#contact-header">Contact</a></li>
         </ul>
     </nav>
 
     <header>
         <br>
-        <img class="my-image" src="My photo.jpg" alt="My own image">
+        <img class="my-image" src="./images/My photo.jpg" alt="My own image">
         <h1>Ahmed Hesham <br>
             <span id="job"> Frontend Developer</span>
         </h1>
-        <p class="info">Hi, I am Ahmed Hesham, a passionate front-end developer who loves building clean and responsive
-            websites.
-            I have a strong foundation in skills like <span> HTML, CSS,JavaScript,
-                git , github and React,</span> and I have participated in tech competitions as <span>
-                the competetion of Young Innovators 2024</span> and it's certificate is <a target="_blank"
-                href="Young Innovators Competition.jpeg">here</a>.
-             I have finished also many courses like freecodecamp web
-            design responsive course and to view it's cerfificat click <a target="_blank"
+        <p class="info">Hi, I am Ahmed Hesham, a passionate front-end developer
+            who loves building clean and responsive
+            also accessibility websites.
+            I have participated in tech competitions as<span>the competetion of Young Innovators 2024</span> and it's
+            certificate is <a target="_blank" href="./images/Young Innovators Competition.jpeg">here</a>.
+            I have finished also many courses like <span>freecodecamp web
+                design responsive course</span> and to view it's cerfificat click <a target="_blank"
                 href="https://www.freecodecamp.org/certification/AhmedHeshamKamalEldine/responsive-web-design">here</a>
             and built several projects. Now, feel free to explore my work below.
             I hope you find my portfolio both beautiful and inspiring!</p>
     </header>
     <h1 id="project-header">My projects</h1>
     <main>
+        <section class="projects">
+            <div class="project-card">
+                <h3 class="project-name">CATALYST</h2>
+                    <img class="project-image" src="./images/title icon.png" alt="">
+                    <p class="description">Website about selling and sharing it’s products</p>
+                    <div class="visit">
+                        <p><a target="_blank" href="https://catalyst-technologies.xyz/">Visit</a></p>
+                    </div>
+            </div>
 
-        <div class="project-card">
-            <h3 class="project-name">CATALYST</h2>
-                <img class="project-image" src="title icon.png" alt="">
-                <p class="description">Website about selling and sharing it’s products</p>
-                <div class="visit">
-                    <p><a target="_blank" href="https://ahmoty.github.io/catalyst/">Visit</a></p>
-                </div>
+
+            <div class="project-card">
+                <h3 class="project-name">INK</h2>
+                    <img class="project-image" src="./images/INK ICON.svg " alt="">
+                    <p class="description">Website about listening for podcasts</p>
+                    <div class="visit">
+                        <p><a target="_blank" href=" https://ahmoty.github.io/INK/">Visit</a></p>
+                    </div>
             </div>
-        <div class="project-card">
-            <h3 class="project-name">INK</h2>
-                <img class="project-image" src="INK ICON.png" alt="">
-                <p class="description">Website about selling and sharing it’s products</p>
-                <div class="visit">
-                    <p><a target="_blank" href=" https://ahmoty.github.io/INK/">Visit</a></p>
-                </div>
+
+
+            <div class="project-card">
+                <h3 class="project-name">Tech Future</h2>
+                    <img id="tech-future-image" class="project-image" src="./images/tech future logo.svg " alt="">
+                    <p class="description">Website about a conference talking about technology future</p>
+                    <div class="visit">
+                        <p><a target="_blank" href=" https://ahmoty.github.io/INK/">Visit</a></p>
+                    </div>
             </div>
+        </section>
+
+
+        <section class="skills">
+            <h2 id="skills-header">My skills</h2>
+            <ul class="skills-list">
+                <li class="skills-li">Technologies</li>
+                <br>
+                <li class="skills-li">HTML</li>
+                <li class="skills-li">CSS</li>
+                <li class="skills-li">JavaScript</li>
+            </ul>
+            <!-- <br>
+            <ul class="skills-list">
+                <li class="skills-li">Frameworks and Libraries</li>
+                <br>
+                <li class="skills-li">Bootstrap</li>
+                <li class="skills-li">React</li>
+                <li class="skills-li">Tailwind CSS</li>
+                <li class="skills-li">jQuery</li>
+            </ul>
+            <ul class="skills-list">
+                <li class="skills-li">Tools and Topics</li>
+                <br>
+                <li class="skills-li">Responsive Web Design</li>
+                <li class="skills-li">Web Accessibility</li>
+                <li class="skills-li">Git and GitHub</li>
+                <li class="skills-li">SEO Basics</li>
+                <li class="skills-li">Web Performance Optimization</li>
+                <li class="skills-li">Basic Graphic Design</li>
+            </ul> -->
+        </section>
+
     </main>
+
     <div class="contact">
         <h2 id="contact-header">Contact me </h2>
-        <div class="github"><a target="_blank" href="https://github.com/Ahmoty">Github</a></div>
-        <div class="email"><a target="_blank" href="mailto:ahmeddodoadham@gmail.com">Email</a></div>
-        <div class="number">+20 1010107198</div>
+        <div class="github">
+            <a target="_blank" href="https://github.com/Ahmoty"><img id="contact-icons" 
+                src="./images/github icon.svg" 
+                alt="github image"></a>
+        </div>
+        <div class="email">
+            <a target="_blank" href="mailto:ahmeddodoadham@gmail.com"><img id="contact-icons" 
+                src="./images/email icon.svg" 
+                alt="email icon"></a>
+        </div>
+        <div class="number">
+            <a href="tel:01010107198">
+                 <img id="contact-icons" src="./images/phone icon.svg" alt="phone icon">
+            </a></div>
     </div>
-    <p class="end"D>Thank you very much for visiting my portfolio website</p>
+    <p class="end" >Thank you very much for visiting my portfolio website</p>
 </body>
 
 </html>
