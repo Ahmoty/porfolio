@@ -113,10 +113,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 450px;
+  height: 410px;
   width: 100%;
-  max-width: 300px;
-  box-sizing: border-box;
+  max-width: 220px;
 }
 
 .project-image {
@@ -280,3 +279,4 @@ main {
 #tech-future-image {
   width: 20rem;
 }
+
